@@ -16,6 +16,6 @@ tasks.push(new Task('Do laundry.', 'High'));
 
 tasks[0].markDone();
 
-for(var task of tasks) {
+for(let task of tasks) {
   console.log(task);
 }
