@@ -16,6 +16,7 @@ import { Task } from './task.model';
 })
 
 export class AppComponent {
+  color = '';
   currentFocus: string = 'Angular Homework';
   currentTime = new Date();
   month: number = this.currentTime.getMonth() + 1;
